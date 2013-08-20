@@ -1,6 +1,5 @@
 package rtb;
 
-public interface IDentifier
-{
+public interface IDentifier {
    public long getID();
 }

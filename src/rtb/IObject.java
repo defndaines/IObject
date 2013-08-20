@@ -49,7 +49,7 @@ public final class IObject {
                   else
                      checked = true;
                } catch (IllegalAccessException | IllegalArgumentException | InvocationTargetException e) {
-                   // TODO: With partially implemented interfaced, may be OK to catch and continue.
+                   // TODO: With partially implemented interfaces, may be OK to catch and continue.
                   return false;
                }
       }
